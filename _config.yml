@@ -88,8 +88,6 @@ JB :
     provider : disqus
     disqus :
       short_name : trentmillar
-      layout: default
-      comments: true
     livefyre :
       site_id : 123
     intensedebate :
