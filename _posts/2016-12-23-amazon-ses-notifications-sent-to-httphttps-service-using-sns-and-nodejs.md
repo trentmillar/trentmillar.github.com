@@ -2,7 +2,7 @@
 layout: post
 title: "Amazon SES Notifications Sent to HTTP/HTTPS Service Using SNS and Expressjs"
 description: "Amazon SES Notifications Sent to HTTP/HTTPS Service Using SNS and Expressjs"
-category: "Amazon SES Email"
+category: "Amazon-SES-Email"
 tags: ["Expressjs", "SES", "SNS", "HTTP"]
 ---
 {% include JB/setup %}
