@@ -3,7 +3,7 @@ layout: post
 title: "Markdown Cheat Sheet"
 description: "Markdown Cheat Sheet"
 category: "Coding"
-tags: ['Markdown','cheatsheet']
+tags: ['Markdown','Cheatsheet']
 ---
 {% include JB/setup %}
 My quick reference to the most commom MD. These examples are not pegged to Github markdown, instead I tried to cover what should be supported on all platforms.
@@ -44,6 +44,7 @@ _MD_:
 	###### H6
 
 _Results_:
+
 # H1
 ## H2
 ### H3
