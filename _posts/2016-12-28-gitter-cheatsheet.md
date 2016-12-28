@@ -3,7 +3,7 @@ layout: post
 title: "Gitter Cheatsheet"
 description: "The Gitter.im commands I use and don't want to forget"
 category: "Cheatsheet"
-tags: ['cheatsheet', 'gitter']
+tags: ['Cheatsheet', 'Gitter']
 ---
 {% include JB/setup %}
 My morning routine consist of making my coffee, streaming my music, then opening my fav'd Gitter rooms before I start cutting code. 
