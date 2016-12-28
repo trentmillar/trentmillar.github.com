@@ -22,7 +22,7 @@ I recommend you create a room for yourself to try out these commands until you a
 
 #### Sanity Commands
 
-There is always someone that doesn't contribute much other than spaming your Chrome notification popup. Here is a command to block a user:
+There is always someone that doesn't contribute much other than spamming your Chrome notification popup. Here is a command to block a user:
 
 	/ban @username
 
@@ -30,7 +30,7 @@ Once you've calmed down, you can un-block them with:
 
 	/unban @username
 
-Notify-all will turn on muted notifications. This can get kind of spammy if you use Chrome notifications in a busy room.
+Notify-all will turn on all notifications including muted ones. This can get kind of spammy if you use Chrome notifications in a busy room.
 
 	/notify-all
 
