@@ -19,7 +19,9 @@ The following are some cool commands I have used in the past.
 I recommend you create a room for yourself to try out these commands until you are comfortable with them. The last thing you want is everyone seeing you are trying to ban someone because you had a typo.
 
 ----
+
 #### Sanity Commands
+
 There is always someone that doesn't contribute much other than spaming your Chrome notification popup. Here is a command to block a user:
 
 	/ban @username
@@ -41,6 +43,7 @@ If you just want to be notified when someone is chatting @ you.
 	/notify-announcements
 
 ----
+
 #### Room Commands
 
 Adding a new room is easy enough through the interface or you can simply use the `/channel` command to bring ut the create room dialog.
@@ -64,6 +67,7 @@ If you are the admin of a room you can remove a user with:
 	/remove @username
 
 ----
+
 #### Message Commands
 
  If you want to spam everyone and tell them something use:
