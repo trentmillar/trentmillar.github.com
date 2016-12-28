@@ -78,7 +78,7 @@ If you are the admin of a room you can remove a user with:
 
 	/mark-all-read
  
-To start a prive conversation you can hover over the user's avatar or use the command:
+To start a private conversation you can hover over the user's avatar or use the command:
 
 	/query @username
 
