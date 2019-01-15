@@ -162,7 +162,7 @@ Here's the example headers of the request you should expect:
     	"x-amz-sns-subscription-arn":"arn:aws:sns:us-east-1:12345678909876:email-deliveries:1cd52cf5-c58e-8a1e-b1d2-adc9db68ca99",
     	"content-length":"1546",
     	"content-type":"text/plain; charset=UTF-8",
-    	"host":"www.loothoot.com",
+    	"host":"www.mysite.com",
     	"connection":"Keep-Alive",
     	"user-agent":"Amazon Simple Notification Service Agent",
     	"accept-encoding":"gzip,deflate"
@@ -201,7 +201,7 @@ Now, the incoming requests will log to the console, and we can read the contents
     	"Type" : "Notification",
     	"MessageId" : "0c9f70e1-2945-5047-aa8f-20370e2cdb7b",
     	"TopicArn" : "arn:aws:sns:us-east-1:12345678909876:email-deliveries",
-    	"Message" : "{\"notificationType\":\"Delivery\",\"mail\":{\"timestamp\":\"2016-12-22T19:10:31.693Z\",\"source\":\"LootHoot <noreply@loothoot.com>\",\"sourceArn\":\"arn:aws:ses:us-east-1:12345678909876:identity/loothoot.com\",\"sendingAccountId\":\"12345678909876\",\"messageId\":\"12345678909876-954d37de-9fec-4168-b536-968249e9f5a8-000000\",\"destination\":[\"Not 4 U 2 C <email@goes.here>\"]},\"delivery\":{\"timestamp\":\"2016-12-22T19:10:33.364Z\",\"processingTimeMillis\":1671,\"recipients\":[\"email@goes.here\"],\"smtpResponse\":\"250 ok dirdel\",\"remoteMtaIp\":\"111.125.69.99\",\"reportingMTA\":\"a8-237.smtp-out.amazonses.com\"}}",
+    	"Message" : "{\"notificationType\":\"Delivery\",\"mail\":{\"timestamp\":\"2016-12-22T19:10:31.693Z\",\"source\":\"You <noreply@mysite.com>\",\"sourceArn\":\"arn:aws:ses:us-east-1:12345678909876:identity/mysite.com\",\"sendingAccountId\":\"12345678909876\",\"messageId\":\"12345678909876-954d37de-9fec-4168-b536-968249e9f5a8-000000\",\"destination\":[\"Not 4 U 2 C <email@goes.here>\"]},\"delivery\":{\"timestamp\":\"2016-12-22T19:10:33.364Z\",\"processingTimeMillis\":1671,\"recipients\":[\"email@goes.here\"],\"smtpResponse\":\"250 ok dirdel\",\"remoteMtaIp\":\"111.125.69.99\",\"reportingMTA\":\"a8-237.smtp-out.amazonses.com\"}}",
     	"Timestamp" : "2016-12-22T19:10:33.406Z",
     	"SignatureVersion" : "1",
     	"Signature" : "EH24negeSqLXUxLqBuUaRhyJvOCfE/Y2upa8qCCsQfT9o+MNnhBlW0csdxrasqI8SBIaAo9/kgPkITR2uNp2uVthhHjYCsXcrFnvOItMeB7sP3aTzjt7llq18k0vOv2wjW0uBfh7GpKNt6alBfo9r21fXdHCPvPRx9mwo45rgPWKoHIeu/4oyvUtD0+orLDjUGwowzPdqaFj8rjFcuW2voUdrb5hD2wNqfQIEe0gCgpHhjOilGdANpQvLkJQOu7qFz0FkL1YG9tamqLY6/hSqVvGCzYyy+OayjVUowCfA==",
@@ -225,8 +225,8 @@ Here's the console output of a "Delivery" notification.
         "notificationType":"Delivery",
         "mail": {
             "timestamp":"2016-12-23T00:08:06.576Z",
-            "source":"LootHoot <noreply@loothoot.com>",
-            "sourceArn":"arn:aws:ses:us-east-1:12345678909876:identity/loothoot.com",
+            "source":"You <noreply@mysite.com>",
+            "sourceArn":"arn:aws:ses:us-east-1:12345678909876:identity/mysite.com",
             "sendingAccountId":"12345678909876",
             "messageId":"12345678909876-879a45b1-af2a-4de3-ba61-12345678909876-000000",
             "destination":["email@goes.here"]
@@ -262,8 +262,8 @@ Here's the console output of a "Bounce" notification.
        },
        "mail": {
             "timestamp":"2016-12-22T19:10:28.000Z",
-            "source":"LootHoot <noreply@loothoot.com>",
-            "sourceArn":"arn:aws:ses:us-east-1:12345678909876:identity/loothoot.com",
+            "source":"You <noreply@mysite.com>",
+            "sourceArn":"arn:aws:ses:us-east-1:12345678909876:identity/mysite.com",
             "sendingAccountId":"12345678909876",
             "messageId\":\"12345678909876-9716a9cb-5eef-411a-bff7-12345678909876-000000",
             "destination":["Not 4U2C <email@qq.com>"]
